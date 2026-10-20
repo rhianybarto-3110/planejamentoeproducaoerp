@@ -1,0 +1,6 @@
+{
+  "name": "PlanoRoxo ERP - Planejamento e Produção",
+  "description": "Sistema completo e leve de Planejamento e Controle da Produção (PCP) para pequenas empresas, com Ficha Técnica (BOM), Estoque de Matérias-Primas, Clientes/Fornecedores, Capacidade Produtiva, Pedidos e Ordens de Produção.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
