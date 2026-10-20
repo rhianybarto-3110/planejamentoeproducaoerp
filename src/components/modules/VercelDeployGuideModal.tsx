@@ -32,6 +32,10 @@ export const VercelDeployGuideModal: React.FC<VercelDeployGuideModalProps> = ({ 
 
   const vercelJsonContent = `{
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install --legacy-peer-deps",
   "cleanUrls": true,
   "rewrites": [
     {
